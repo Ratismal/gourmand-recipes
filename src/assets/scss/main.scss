@@ -1,0 +1,243 @@
+html {
+    font-family: sans-serif;
+}
+
+:root {
+    --color-text: rgba(230, 230, 230);
+    --color-accent: rgb(26, 105, 74);
+    --color-accent-highlight: rgb(31, 124, 87);
+    --color-accent-darker: rgb(14, 54, 39);
+}
+
+html, body, #app {
+    margin: 0; padding: 0; 
+
+    background: rgb(20, 20, 20);
+    color: var(--color-text);
+}
+* {
+    box-sizing: border-box;
+}
+
+section {
+    max-width: 800px;
+    padding: 0.5rem;
+    margin: 0 auto;
+}
+
+header {
+    background: var(--color-accent);
+    padding: 2rem;
+    color: var(--color-text);
+    user-select: none;
+    margin-bottom: 1rem;
+}
+footer {
+    background: var(--color-accent-darker);
+    padding: 2rem;
+    color: var(--color-text);
+    user-select: none;
+    margin-top: 1rem;
+}
+
+.eggs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.egg-wrapper {
+    flex: 1 1 159px;
+    height: 159px;
+}
+
+.egg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+
+    .overlay {
+        z-index: 5;
+        background-image: url('/img/eggs/base-outline.png');
+    }
+
+    .pattern {
+        z-index: 4;
+    }
+
+    .background {
+        z-index: 3;
+        mask-image: url('/img/eggs/base-mask.png');
+    }
+
+    .overlay, .background, .pattern {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 159px;
+        width: 159px;
+        max-width: 159px;
+        user-select: none;
+        background-size: contain;
+    }
+}
+
+.monster-database {
+    display: flex;
+    flex-direction: column;
+}
+
+.monster {
+    display: flex;
+    flex-direction: column;
+
+    .monster-name {
+        font-size: 1.4rem;
+    }
+}
+
+label {
+    display: block;
+}
+input, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.color-wrapper {
+    display: flex;
+
+}
+
+.color {
+    flex: 1 1 100px;
+}
+
+.color-preview {
+    height: 25px;
+    width: 100%;
+    max-width: 200px;
+    display: block;
+}
+
+.color-picker-wrapper {
+    width: 100%;
+    margin: 0.25rem 0;
+
+    position: relative;
+
+    .color-dropdown {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        background: white;
+        z-index: 20;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        padding: 0.5rem;
+
+        .colors {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+}
+
+.color-picker {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .color-preview {
+        margin-right: 1rem;
+    }
+}
+
+pre code {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    white-space: pre-wrap;
+    display: block;
+    word-break: break-all;
+}
+
+.button-group {
+    display: flex;
+
+    .button {
+        background: var(--color-accent);
+        outline: none;
+        border: none;
+        display: block;
+        flex: 1 0 auto;
+        padding: 1rem;
+        color: var(--color-text);
+
+        &:hover {
+            background: var(--color-accent-highlight);
+        }
+    }
+}
+
+header h1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.locations {
+    .location {
+        display: flex;
+        width: 100%;
+        margin-bottom: 1rem;
+        gap: 1rem;
+
+        select {
+            margin: 0;
+            flex: 1 1 auto;
+        }
+
+        label {
+            flex: 1 0 auto;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            justify-content: center;
+            user-select: none;
+            cursor: pointer;
+
+            input {
+                display: inline-block;
+                margin: 0;
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        button.remove {
+            background: red;
+            color: var(--color-text);
+            outline: none;
+            border: none;
+        }
+    }
+
+    button.add {
+        margin-bottom: 1rem;
+    }
+}
+
+.mhs2 {
+    .monsters-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        // gap: 1rem;
+
+        .monster {
+            flex: 0 1 25%;
+            min-width: 180px;
+        }
+    }
+}
