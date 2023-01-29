@@ -101,9 +101,9 @@
       "icon": "/img/items/Batnip_icon.png",
       "name": "Batnip"
     },
-    "Adult Centipede": {
+    "Centipede": {
       "icon": "/img/items/Adult_Centipede_icon.png",
-      "name": "Adult Centipede"
+      "name": "Centipede"
     },
     "Noodlefly": {
       "icon": "/img/items/Noodlefly_icon.png",
@@ -251,7 +251,7 @@
       "Jellyfish": "Batnip",
       "Lantern": "Grenade",
       "Karma Flower": "Grenade",
-      "Mushroom": "Adult Centipede"
+      "Mushroom": "Centipede"
     },
     "Slime Mold": {
       "Rubbish": "Lantern",
@@ -337,18 +337,18 @@
       "Rubbish": "Batfly",
       "Flashbang": "Vulture Grub",
       "Vulture Mask": "Vulture Grub",
-      "Spore Puff": "Adult Centipede",
+      "Spore Puff": "Centipede",
       "Blue Fruit": "Batfly",
       "Neuron Fly": "Overseer",
       "Bubble Fruit": "Hazer",
       "Jellyfish": "Snail",
       "Lantern": "Vulture Grub",
       "Karma Flower": "Overseer",
-      "Mushroom": "Adult Centipede",
-      "Cherrybomb": "Adult Centipede",
-      "Slime Mold": "Adult Centipede",
+      "Mushroom": "Centipede",
+      "Cherrybomb": "Centipede",
+      "Slime Mold": "Centipede",
       "Batnip": "Batfly",
-      "Grenade": "Adult Centipede",
+      "Grenade": "Centipede",
       "Beehive": "Grappling Worm",
       "Eggbug": "Noodlefly"
     },
@@ -404,7 +404,7 @@
       "Jellyfish": "Fire Egg",
       "Lantern": "Fire Egg",
       "Karma Flower": "Fire Egg",
-      "Mushroom": "Adult Centipede",
+      "Mushroom": "Centipede",
       "Cherrybomb": "Fire Egg",
       "Slime Mold": "Fire Egg",
       "Batnip": "Fire Egg",
@@ -442,18 +442,18 @@
       "Rubbish": "Batfly",
       "Flashbang": "Vulture Grub",
       "Vulture Mask": "Vulture Grub",
-      "Spore Puff": "Adult Centipede",
+      "Spore Puff": "Centipede",
       "Blue Fruit": "3 Food",
       "Neuron Fly": "3 Food",
       "Bubble Fruit": "3 Food",
       "Jellyfish": "3 Food",
       "Lantern": "Vulture Grub",
       "Karma Flower": "Overseer",
-      "Mushroom": "Adult Centipede",
-      "Cherrybomb": "Adult Centipede",
+      "Mushroom": "Centipede",
+      "Cherrybomb": "Centipede",
       "Slime Mold": "3 Food",
       "Batnip": "Batfly",
-      "Grenade": "Adult Centipede",
+      "Grenade": "Centipede",
       "Beehive": "Grappling Worm",
       "Eggbug": "3 Food",
       "Noodlefly Egg": "Noodlefly",
@@ -527,7 +527,7 @@
       "Mushroom": "Gooie Duck",
       "Cherrybomb": "Beehive",
       "Slime Mold": "3 Food",
-      "Batnip": "Adult Centipede",
+      "Batnip": "Centipede",
       "Grenade": "Lantern",
       "Beehive": "Jellyfish",
       "Eggbug": "3 Food",
@@ -597,7 +597,7 @@
       "Glow Weed": "3 Food",
       "Dandelion Peach": "3 Food"
     },
-    "Adult Centipede": {
+    "Centipede": {
       "Rubbish": "Beehive",
       "Flashbang": "Beehive",
       "Vulture Mask": "Seed",
@@ -656,7 +656,7 @@
       "Glow Weed": "3 Food",
       "Dandelion Peach": "3 Food",
       "Batfly": "3 Food",
-      "Adult Centipede": "4 Food"
+      "Centipede": "4 Food"
     },
     "Noodlefly": {
       "Rubbish": "Spore Puff",
@@ -687,7 +687,7 @@
       "Glow Weed": "4 Food",
       "Dandelion Peach": "4 Food",
       "Batfly": "4 Food",
-      "Adult Centipede": "5 Food",
+      "Centipede": "5 Food",
       "Vulture Grub": "4 Food"
     },
     "Hazer": {
@@ -719,7 +719,7 @@
       "Glow Weed": "3 Food",
       "Dandelion Peach": "3 Food",
       "Batfly": "3 Food",
-      "Adult Centipede": "4 Food",
+      "Centipede": "4 Food",
       "Vulture Grub": "3 Food",
       "Noodlefly": "4 Food"
     },

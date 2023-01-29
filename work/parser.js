@@ -31,6 +31,9 @@ function parseItem(item) {
     out.name = 'Pearl';
   } else if (item) {
     out.name = item.match(/(.+) icon\.png/i)[1];
+    if (out.name === 'Adult Centipede') {
+      out.name = 'Centipede';
+    }
   }
 
   if (output.items[out.name] === undefined) {
