@@ -1,10 +1,10 @@
-# eggdentifier
+# gourmand recipes
 
-identifies eggs from Monster Hunter Stories
+lists gourmand recipes from rainworld
 
 because there's so many ;w;
 
-https://eggdentifier.stupidcat.me
+https://gourmand.stupidcat.me
 
 ## Project setup
 ```
